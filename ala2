@@ -1,0 +1,103 @@
+1.  Which function returns the length of a string in Python?
+
+A) size()
+B) length()
+C) len()
+D) count()
+
+Answer: C) len()
+
+2.  What is the output?
+print(len("Python"))
+
+A) 5
+B) 6
+C) 7
+D) Error
+
+Answer: B) 6
+
+3.  What is the length of the string "Hello World"?
+
+A) 10
+B) 11
+C) 12
+D) 9
+
+Answer: B) 11 (space is also counted)
+
+4.  What will be the output?
+print(len(""))
+
+A) 0
+B) 1
+C) Error
+D) None
+
+Answer: A) 0
+
+5. Which loop is commonly used to count string length manually?
+
+A) while loop
+B) for loop
+C) do-while loop
+D) switch
+
+Answer: B) for loop
+
+6.  What is the output?
+s = "ABC123"
+print(len(s))
+
+A) 3
+B) 6
+C) 5
+D) Error
+
+Answer: B) 6
+
+7. What does len(" ") return?
+
+A) 0
+B) 1
+C) Error
+D) None
+
+Answer: B) 1 (space counts as character)
+
+8. What will this print?
+print(len("Python\n"))
+
+A) 6
+B) 7
+C) 8
+D) Error
+
+Answer: B) 7 (\n counts as one character)
+
+9. Which method removes spaces before counting length?
+
+A) remove()
+B) delete()
+C) replace()
+D) pop()
+
+Answer: C) replace()
+
+Example:
+
+len(s.replace(" ", ""))
+10. What is the output?
+s = "Data"
+for i in s:
+    count = 0
+    count += 1
+print(count)
+
+A) 1
+B) 4
+C) 0
+D) Error
+
+Answer: A) 1
+(Because count resets every loop)
