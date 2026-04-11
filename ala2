@@ -1,3 +1,0 @@
-print("enter the string")
-length=len(str(input()))
-print("length of string:",length)
